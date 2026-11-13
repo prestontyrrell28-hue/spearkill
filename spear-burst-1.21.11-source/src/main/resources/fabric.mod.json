@@ -1,0 +1,10 @@
+{
+  "schemaVersion": 1,
+  "id": "spear-burst",
+  "version": "0.1.0",
+  "name": "Spear Burst",
+  "description": "Close-range, single-tick spear acceleration with braking.",
+  "environment": "client",
+  "entrypoints": { "meteor": ["dev.preston.spearburst.SpearBurstAddon"] },
+  "depends": { "java": ">=21", "minecraft": "1.21.11", "fabricloader": ">=0.18.2", "meteor-client": "*" }
+}
